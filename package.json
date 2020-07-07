@@ -5,7 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint --fix --cache src",
+    "build": "npx parcel build src/index.html",
+    "work": "npx parcel src/index.html --log-level 4"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,37 @@
   "bugs": {
     "url": "https://github.com/SarahG4000/music-emotion-hackthon-2020/issues"
   },
-  "homepage": "https://github.com/SarahG4000/music-emotion-hackthon-2020#readme"
+  "homepage": "https://github.com/SarahG4000/music-emotion-hackthon-2020#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@becode/eslint-config": "^0.10.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-unicorn": "^20.1.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "lint-staged": {
+    "*.json": [
+      "npx prettier --write"
+    ],
+    "*.js": [
+      "npx eslint --fix --cache"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  }
 }
