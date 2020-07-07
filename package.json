@@ -1,7 +1,8 @@
 {
-  "name": "music-emotion-hackthon-2020",
+  "name": "@sarahG/music-emotion-hackthon-2020",
   "version": "1.0.0",
   "description": "visuel for the app",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
