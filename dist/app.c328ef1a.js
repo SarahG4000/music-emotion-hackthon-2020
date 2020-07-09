@@ -28386,8 +28386,6 @@ module.exports = reloadCSS;
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
 "use strict";
 
-var _react = _interopRequireDefault(require("react"));
-
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _homepage = _interopRequireDefault(require("./component/homepage"));
@@ -28403,10 +28401,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * coded by SarahG
  * started at 07/07/2020
  */
-_reactDom.default.render( /*#__PURE__*/_react.default.createElement(_homepage.default, null), document.querySelector("#app"));
-
-console.log("hello world");
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./component/homepage":"component/homepage.js","bulma":"../node_modules/bulma/bulma.sass"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+// import React from "react";
+_reactDom.default.render(_homepage.default, document.querySelector("#app")); // console.log("hello world");
+},{"react-dom":"../node_modules/react-dom/index.js","./component/homepage":"component/homepage.js","bulma":"../node_modules/bulma/bulma.sass"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

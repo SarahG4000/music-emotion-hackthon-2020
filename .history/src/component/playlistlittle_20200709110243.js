@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/mystyle.css";
 
 const PlayList = () => (
     <div className={"is-scrollable"}>

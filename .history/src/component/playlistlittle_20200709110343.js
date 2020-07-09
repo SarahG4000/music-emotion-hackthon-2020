@@ -1,7 +1,6 @@
 import React from "react";
-import "../style/mystyle.css";
 
-const PlayList = () => (
+const PlayListLet = () => (
     <div className={"is-scrollable"}>
         <div className={"card sgt"} />
         <div className={"card-content"}>
@@ -114,4 +113,4 @@ const PlayList = () => (
         </div>
     </div>
 );
-export default PlayList;
+export default PlayListLet;

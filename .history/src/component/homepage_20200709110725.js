@@ -9,7 +9,7 @@
 import React from "react";
 import {NBSP} from "../core/constantes";
 import "../style/mystyle.css";
-import image from "../assets/nature-3082832_640.jpg";
+// import image from "../assets/nature-3082832_640.jpg";
 import PlayList from "./playlist";
 import PlayListLet from "./playlistlittle";
 // import logo from "../assets/ohun_logo.jpg";

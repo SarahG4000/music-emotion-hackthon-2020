@@ -13,4 +13,4 @@ import "bulma";
 
 ReactDOM.render(PageHome, document.querySelector("#app"));
 
-// console.log("hello world");
+console.log("hello world");

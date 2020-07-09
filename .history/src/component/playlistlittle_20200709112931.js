@@ -1,12 +1,13 @@
 import React from "react";
 import "../style/mystyle.css";
+import image from "../assets/nature-3082832_640.jpg";
 
-const PlayList = () => (
+const PlayListLet = () => (
     <div className={"is-scrollable"}>
         <div className={"card sgt"} />
         <div className={"card-content"}>
             <i className={"far fa-play-circle sg-icon"} />
-            <i className={"fas fa-ellipsis-v sg-iconpargrd"} />
+            <i className={"fas fa-ellipsis-v sg-iconparlit"} />
             <div className={"media"}>
                 <div className={"media-left"}>
                     <figure className={"image is-48x48"}>
@@ -49,7 +50,7 @@ const PlayList = () => (
         <div className={"card"}>
             <div className={"card-content"}>
                 <i className={"far fa-play-circle sg-icon"} />
-                <i className={"fas fa-ellipsis-v sg-iconpargrd"} />
+                <i className={"fas fa-ellipsis-v sg-iconparlit"} />
                 <div className={"media"}>
                     <div className={"media-left"}>
                         <figure className={"image is-48x48"}>
@@ -71,7 +72,7 @@ const PlayList = () => (
         <div className={"card"}>
             <div className={"card-content"}>
                 <i className={"far fa-play-circle sg-icon"} />
-                <i className={"fas fa-ellipsis-v sg-iconpargrd"} />
+                <i className={"fas fa-ellipsis-v sg-iconparlit"} />
                 <div className={"media"}>
                     <div className={"media-left"}>
                         <figure className={"image is-48x48"}>
@@ -93,7 +94,7 @@ const PlayList = () => (
         <div className={"card"}>
             <div className={"card-content"}>
                 <i className={"far fa-play-circle sg-icon"} />
-                <i className={"fas fa-ellipsis-v sg-iconpargrd"} />
+                <i className={"fas fa-ellipsis-v sg-iconparlit"} />
                 <div className={"media"}>
                     <div className={"media-left"}>
                         <figure className={"image is-48x48"}>
@@ -114,4 +115,4 @@ const PlayList = () => (
         </div>
     </div>
 );
-export default PlayList;
+export default PlayListLet;

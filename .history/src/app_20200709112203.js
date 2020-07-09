@@ -6,11 +6,11 @@
  * started at 07/07/2020
  */
 
-// import React from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import PageHome from "./component/homepage";
 import "bulma";
 
-ReactDOM.render(PageHome, document.querySelector("#app"));
+ReactDOM.render(<PageHome />, document.querySelector("#app"));
 
 // console.log("hello world");
