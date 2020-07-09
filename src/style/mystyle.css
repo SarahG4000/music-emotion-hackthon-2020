@@ -26,11 +26,10 @@ font-sg {
 }
 
 .sg-icon {
-
     float: right;
-    width: 8% !important;
+    width: 6% !important;
     height: 8%;
-    margin-top: -10px;
+    margin-top: -1px;
     margin-right: 45px;
 
 }
@@ -38,30 +37,31 @@ font-sg {
 .sg-iconlit {
 
     float: right;
-    width: 8% !important;
+    width: 6% !important;
     height: 8%;
-    margin-bottom: -40px;
+    margin-bottom: -45px;
     margin-right: 45px;
+    margin-top: 13px;
 
 }
 
 .sg-iconpar {
 
     float: right;
-    width: 2% !important;
+    width: 7px !important;
     height: 8%;
     margin-bottom: -40px;
-    margin-right: -77px;
+    margin-right: 6px;
 
 }
 
 .sg-iconpargrd {
 
     float: right;
-    width: 14px !important;
+    width: 10px !important;
     height: 30px;
-    margin-bottom: -40px;
-    margin-right: -114px;
+    margin-top: -14px;
+    margin-right: -99px;
 
 }
 

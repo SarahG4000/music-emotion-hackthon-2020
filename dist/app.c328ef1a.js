@@ -28285,32 +28285,17 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"component/homepage.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"core/constantes.js":[function(require,module,exports) {
 "use strict";
 
-var _react = _interopRequireDefault(require("react"));
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.NBSP = void 0;
+var NBSP = "\xA0"; //un espace insécable (traduction un espace incassable)
 
-var _reactDom = require("react-dom");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/* sarahG/Music emotion
- *
- * /src/component/homepage.js - page home for app
- *
- * coded by SarahG
- * started at 07/07/2020
- */
-var HomePage = function HomePage() {
-  (0, _reactDom.render)( /*#__PURE__*/_react.default.createElement("div", {
-    className: ["container", "is-fullhd"].join(" ")
-  }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "title"
-  }, "Ohun"), /*#__PURE__*/_react.default.createElement("input", {
-    label: "recherche"
-  })));
-};
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+exports.NBSP = NBSP;
+},{}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -28377,7 +28362,414 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../node_modules/bulma/bulma.sass":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style/mystyle.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./fonts/run-webfont.eot":[["run-webfont.8bf12e75.eot","style/fonts/run-webfont.eot"],"style/fonts/run-webfont.eot"],"./fonts/run-webfont.woff2":[["run-webfont.f7c96d4f.woff2","style/fonts/run-webfont.woff2"],"style/fonts/run-webfont.woff2"],"./fonts/run-webfont.woff":[["run-webfont.cb815d09.woff","style/fonts/run-webfont.woff"],"style/fonts/run-webfont.woff"],"./fonts/run-webfont.ttf":[["run-webfont.9dcedb5d.ttf","style/fonts/run-webfont.ttf"],"style/fonts/run-webfont.ttf"],"./fonts/run-webfont.svg":[["run-webfont.5638a8d3.svg","style/fonts/run-webfont.svg"],"style/fonts/run-webfont.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/nature-3082832_640.jpg":[function(require,module,exports) {
+module.exports = "/nature-3082832_640.042c653d.jpg";
+},{}],"component/playlist.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("../style/mystyle.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* sarahG/Music emotion
+ *
+ *
+ *
+ * coded by SarahG
+ * started at 07/07/2020
+ */
+var PlayList = function PlayList() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "is-scrollable"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card sgt"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-icon"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpargrd"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 01"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-icon"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpargrd"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 02"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-icon"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpargrd"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 03"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-icon"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpargrd"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 04"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-icon"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpargrd"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 05"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))));
+};
+
+var _default = PlayList;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js","../style/mystyle.css":"style/mystyle.css"}],"component/playlistlittle.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("../style/mystyle.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* sarahG/Music emotion
+ *
+ *
+ *
+ * coded by SarahG
+ * started at 07/07/2020
+ */
+var PlayListLet = function PlayListLet() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "is-scrollable"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card sg-let"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content sg-let pad-sg"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-iconlit"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpar"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 01"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card sg-let"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content sg-let pad-sg"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-iconlit"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpar"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 02"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card sg-let"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content sg-let pad-sg"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-iconlit"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpar"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 03"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card sg-let"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content sg-let pad-sg"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-iconlit"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpar"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 04"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "card sg-let"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "card-content sg-let pad-sg"
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: "far fa-play-circle sg-iconlit"
+  }), /*#__PURE__*/_react.default.createElement("i", {
+    className: "fas fa-ellipsis-v sg-iconpar"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-left"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-48x48"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://bulma.io/images/placeholders/96x96.png",
+    alt: "Placeholder image"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "media-content"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-5"
+  }, "Track 05"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "subtitle is-6"
+  }, "@johnsmith"))))));
+};
+
+var _default = PlayListLet;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js","../style/mystyle.css":"style/mystyle.css"}],"component/homepage.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _constantes = require("../core/constantes");
+
+require("../style/mystyle.css");
+
+var _nature3082832_ = _interopRequireDefault(require("../assets/nature-3082832_640.jpg"));
+
+var _playlist = _interopRequireDefault(require("./playlist"));
+
+var _playlistlittle = _interopRequireDefault(require("./playlistlittle"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* sarahG/Music emotion
+ *
+ * /src/component/homepage.js - page home for app
+ *
+ * coded by SarahG
+ * started at 07/07/2020
+ */
+// import logo from "../assets/ohun_logo.jpg";
+var HomePage = function HomePage() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-sg"
+  }, /*#__PURE__*/_react.default.createElement("nav", {
+    role: "navigation",
+    "aria-label": "dropdown navigation",
+    className: ["navbar", "color-sg", "px-2", "py-2", "sg-full"].join(" ")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "navbar-brand"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    className: "navbar-item"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: ["title", "has-text-white-ter", "font-sg", "is-1"].join(" ")
+  }, /*#__PURE__*/_react.default.createElement("span", {
+    className: "logo-sg"
+  }, "o"), "hun"))), /*#__PURE__*/_react.default.createElement("div", {
+    className: ["navbar-menu"].join(" ")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: ["navbar-end", "sg-end"].join(" ")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: ["navbar-item", "has-dropdown", "is-hoverable"].join(" ")
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    className: "navbar-link"
+  }, /*#__PURE__*/_react.default.createElement("span", {
+    className: ["icon", "s-size-5"].join(" ")
+  }, /*#__PURE__*/_react.default.createElement("i", {
+    className: ["fas fa-users", "has-text-white-ter", "sg-profilicon"].join(" ")
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "navbar-dropdown is-boxed"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    className: "navbar-item"
+  }, "Profil"), /*#__PURE__*/_react.default.createElement("a", {
+    className: "navbar-item"
+  }, "Favorite"), /*#__PURE__*/_react.default.createElement("a", {
+    className: "navbar-item"
+  }, "Deconnection")))))), _constantes.NBSP, /*#__PURE__*/_react.default.createElement("section", {
+    className: "section"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "columns"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "control column is-two-fifths"
+  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("figure", null, /*#__PURE__*/_react.default.createElement("figcaption", null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "columns is-half"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "column is-half"
+  }, /*#__PURE__*/_react.default.createElement("figure", {
+    className: "image is-148x148"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _nature3082832_.default
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "column is-half"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "title is-6 mt-6 sg-p-fi"
+  }, "Track 03 - @johnSmith")))), /*#__PURE__*/_react.default.createElement("audio", {
+    controls: true,
+    src: "..."
+  }, "Your browser does not support the", /*#__PURE__*/_react.default.createElement("code", null, "audio"), " ", "element.")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "mt-4"
+  }, /*#__PURE__*/_react.default.createElement("h2", {
+    className: "br-sg title ml-3 pt-3 pb-4 pl-4"
+  }, "My Play List"), /*#__PURE__*/_react.default.createElement(_playlistlittle.default, null)))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "column is-fullwidth"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "columns is-two-thirds"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "column is-three-quarters sg-h"
+  }, /*#__PURE__*/_react.default.createElement("input", {
+    className: "input is-large is-three-quarters is-hovered ",
+    type: "text",
+    placeholder: "search"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "column is-one-quarter "
+  }, /*#__PURE__*/_react.default.createElement("button", {
+    className: "button sg-c is-large",
+    type: "submit"
+  }, "Search"))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "sgr"
+  }), /*#__PURE__*/_react.default.createElement(_playlist.default, null)))));
+};
+
+var _default = HomePage;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js","../core/constantes":"core/constantes.js","../style/mystyle.css":"style/mystyle.css","../assets/nature-3082832_640.jpg":"assets/nature-3082832_640.jpg","./playlist":"component/playlist.js","./playlistlittle":"component/playlistlittle.js"}],"../node_modules/bulma/bulma.sass":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -28386,11 +28778,17 @@ module.exports = reloadCSS;
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
 "use strict";
 
-var _reactDom = _interopRequireDefault(require("react-dom"));
+var _react = _interopRequireDefault(require("react"));
+
+var ReactDOM = _interopRequireWildcard(require("react-dom"));
 
 var _homepage = _interopRequireDefault(require("./component/homepage"));
 
 require("bulma");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28401,9 +28799,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * coded by SarahG
  * started at 07/07/2020
  */
-// import React from "react";
-_reactDom.default.render(_homepage.default, document.querySelector("#app")); // console.log("hello world");
-},{"react-dom":"../node_modules/react-dom/index.js","./component/homepage":"component/homepage.js","bulma":"../node_modules/bulma/bulma.sass"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+ReactDOM.render( /*#__PURE__*/_react.default.createElement(_homepage.default, null), document.querySelector("#app")); // console.log("hello world");
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./component/homepage":"component/homepage.js","bulma":"../node_modules/bulma/bulma.sass"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -28431,7 +28828,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35145" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36389" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

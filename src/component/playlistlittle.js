@@ -1,12 +1,19 @@
+/* sarahG/Music emotion
+ *
+ *
+ *
+ * coded by SarahG
+ * started at 07/07/2020
+ */
 import React from "react";
 import "../style/mystyle.css";
 
 const PlayListLet = () => (
     <div className={"is-scrollable"}>
-        <div className={"card sgt"} />
-        <div className={"card-content"}>
-            <i className={"far fa-play-circle sg-icon"} />
-            <i className={"fas fa-ellipsis-v sg-iconparlit"} />
+        <div className={"card sg-let"} />
+        <div className={"card-content sg-let pad-sg"}>
+            <i className={"far fa-play-circle sg-iconlit"} />
+            <i className={"fas fa-ellipsis-v sg-iconpar"} />
             <div className={"media"}>
                 <div className={"media-left"}>
                     <figure className={"image is-48x48"}>
@@ -24,10 +31,10 @@ const PlayListLet = () => (
                 </div>
             </div>
         </div>
-        <div className={"card"}>
-            <div className={"card-content"}>
-                <i className={"far fa-play-circle sg-icon"} />
-                <i className={"fas fa-ellipsis-v sg-iconpargrd"} />
+        <div className={"card sg-let"}>
+            <div className={"card-content sg-let pad-sg"}>
+                <i className={"far fa-play-circle sg-iconlit"} />
+                <i className={"fas fa-ellipsis-v sg-iconpar"} />
                 <div className={"media"}>
                     <div className={"media-left"}>
                         <figure className={"image is-48x48"}>
@@ -46,10 +53,10 @@ const PlayListLet = () => (
                 </div>
             </div>
         </div>
-        <div className={"card"}>
-            <div className={"card-content"}>
-                <i className={"far fa-play-circle sg-icon"} />
-                <i className={"fas fa-ellipsis-v sg-iconparlit"} />
+        <div className={"card sg-let"}>
+            <div className={"card-content sg-let pad-sg"}>
+                <i className={"far fa-play-circle sg-iconlit"} />
+                <i className={"fas fa-ellipsis-v sg-iconpar"} />
                 <div className={"media"}>
                     <div className={"media-left"}>
                         <figure className={"image is-48x48"}>
@@ -68,10 +75,10 @@ const PlayListLet = () => (
                 </div>
             </div>
         </div>
-        <div className={"card"}>
-            <div className={"card-content"}>
-                <i className={"far fa-play-circle sg-icon"} />
-                <i className={"fas fa-ellipsis-v sg-iconparlit"} />
+        <div className={"card sg-let"}>
+            <div className={"card-content sg-let pad-sg"}>
+                <i className={"far fa-play-circle sg-iconlit"} />
+                <i className={"fas fa-ellipsis-v sg-iconpar"} />
                 <div className={"media"}>
                     <div className={"media-left"}>
                         <figure className={"image is-48x48"}>
@@ -90,10 +97,10 @@ const PlayListLet = () => (
                 </div>
             </div>
         </div>
-        <div className={"card"}>
-            <div className={"card-content"}>
-                <i className={"far fa-play-circle sg-icon"} />
-                <i className={"fas fa-ellipsis-v sg-iconparlit"} />
+        <div className={"card sg-let"}>
+            <div className={"card-content sg-let pad-sg"}>
+                <i className={"far fa-play-circle sg-iconlit"} />
+                <i className={"fas fa-ellipsis-v sg-iconpar"} />
                 <div className={"media"}>
                     <div className={"media-left"}>
                         <figure className={"image is-48x48"}>

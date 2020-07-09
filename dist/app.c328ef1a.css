@@ -1,3 +1,205 @@
+@font-face {
+    font-family: 'runmedium';
+    src: url('/run-webfont.8bf12e75.eot');
+    src: url('/run-webfont.8bf12e75.eot?#iefix') format('embedded-opentype'),
+        url('/run-webfont.f7c96d4f.woff2') format('woff2'),
+        url('/run-webfont.cb815d09.woff') format('woff'),
+        url('/run-webfont.9dcedb5d.ttf') format('truetype'),
+        url('/run-webfont.5638a8d3.svg#runmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+font-sg {
+    font-family: 'runmedium', sans-serif;
+
+}
+
+.logo-sg {
+    background-color: #ffbe3b;
+}
+
+.sg-profilicon {
+    font-size: 31px;
+    margin-right: 47%;
+}
+
+.sg-icon {
+    float: right;
+    width: 6% !important;
+    height: 8%;
+    margin-top: -1px;
+    margin-right: 45px;
+
+}
+
+.sg-iconlit {
+
+    float: right;
+    width: 6% !important;
+    height: 8%;
+    margin-bottom: -45px;
+    margin-right: 45px;
+    margin-top: 13px;
+
+}
+
+.sg-iconpar {
+
+    float: right;
+    width: 7px !important;
+    height: 8%;
+    margin-bottom: -40px;
+    margin-right: 6px;
+
+}
+
+.sg-iconpargrd {
+
+    float: right;
+    width: 10px !important;
+    height: 30px;
+    margin-top: -14px;
+    margin-right: -99px;
+
+}
+
+/* container */
+
+.container-sg {
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+audio {
+    width: 450px;
+    border-radius: 5px;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.sg-p-fi {
+    border-right: 2px solid #0a477d;
+    width: 98px;
+
+}
+
+.image img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.media {
+    align-items: flex-start;
+    display: flex;
+    text-align: inherit;
+    width: 454px;
+}
+
+table {
+    overflow-y: auto;
+}
+
+.pad-sg {
+    padding: 0.5rem !important;
+    width: 535px;
+}
+
+.card-content {
+    border: 1px solid #054b89e6 !important;
+    padding: 1rem;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+
+.sg-let {
+    width: 448px;
+}
+
+.br-sg {
+    border-left: solid 2px#054b89e6;
+}
+
+/***************************************************************/
+/* navbar */
+.sg-full {
+    width: 100%;
+}
+
+.sg-end {
+    margin-right: 6%;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #054b89;
+    margin-top: -0.375em;
+    right: 1.125em;
+    color: #054b89;
+}
+
+.has-text-white-ter {
+    color: #054b89 !important;
+}
+
+.navbar-item,
+.navbar-link {
+    color: #edeffa !important;
+    line-height: 1.5;
+}
+
+.navbar-dropdown a.navbar-item:focus,
+.navbar-dropdown a.navbar-item:hover {
+    background-color: whitesmoke;
+    color: #0a0a0a !important;
+}
+
+.navbar-item.has-dropdown:focus .navbar-link,
+.navbar-item.has-dropdown:hover .navbar-link,
+.navbar-item.has-dropdown.is-active .navbar-link {
+    background-color: #054b89 !important;
+}
+
+.navbar-dropdown {
+    background-color: #054b89 !important;
+
+    border-top: 2px solid #dbdbdb;
+
+}
+
+.navbar-iten:hover {
+    color: #054b89 !important;
+}
+
+.sg-h {
+    height: 90px;
+}
+
+.sg-c {
+    background-color: white;
+    border-color: #054b89 !important;
+}
+
+.sgr {
+    margin-right: -152px;
+}
+
+.sgt {
+    margin-top: 38px;
+}
+
+/*************************************************************/
+/* color */
+.color-sg {
+    background-color: #054b89 !important;
+    color: #054b89;
+}
+
+/* ***************************************************** */
 @charset "UTF-8";
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {

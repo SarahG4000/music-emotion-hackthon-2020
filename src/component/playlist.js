@@ -1,3 +1,10 @@
+/* sarahG/Music emotion
+ *
+ *
+ *
+ * coded by SarahG
+ * started at 07/07/2020
+ */
 import React from "react";
 import "../style/mystyle.css";
 
@@ -114,4 +121,5 @@ const PlayList = () => (
         </div>
     </div>
 );
+
 export default PlayList;

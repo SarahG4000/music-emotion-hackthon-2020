@@ -31,7 +31,8 @@ const HomePage = () => (
                             "font-sg",
                             "is-1",
                         ].join(" ")}>
-                        <span className={"logo-sg"}>o</span>hun
+                        <span className={"logo-sg"}>{"o"}</span>
+                        {"hun"}
                     </h1>
                     {/* <img
                         className={"image is-128x128"}
@@ -79,7 +80,7 @@ const HomePage = () => (
                                 <div className={"columns is-half"}>
                                     <div className={"column is-half"}>
                                         <figure className={"image is-148x148"}>
-                                            <img className={""} src={image} />
+                                            <img src={image} />
                                         </figure>
                                     </div>
                                     <div className={"column is-half"}>
@@ -93,14 +94,14 @@ const HomePage = () => (
                                 </div>
                             </figcaption>
                             <audio controls src={"..."}>
-                                Your browser does not support the
-                                <code>audio</code> element.
+                                {"Your browser does not support the"}
+                                <code>{"audio"}</code> {"element."}
                             </audio>
                         </figure>
 
                         <div className={"mt-4"}>
                             <h2 className={"br-sg title ml-3 pt-3 pb-4 pl-4"}>
-                                Play List
+                                {"My Play List"}
                             </h2>
                             <PlayListLet />
                         </div>
